@@ -103,7 +103,7 @@ if ENV:
             "Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from SaitamaRobot.config import Development as Config
+    from SaitamaRobot.config import Development as config
     TOKEN = Config.TOKEN
 
     try:
